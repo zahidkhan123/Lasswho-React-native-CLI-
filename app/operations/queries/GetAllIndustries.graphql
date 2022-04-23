@@ -1,0 +1,10 @@
+query GetAllIndustries {
+  industries(parent: null) {
+    id
+    name
+    path {
+      id
+      name
+    }
+  }
+}

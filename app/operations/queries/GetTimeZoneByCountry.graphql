@@ -1,0 +1,7 @@
+query GetTimeZoneByCountry($country_id: ID!) {
+  timezonesByCountry(country_id: $country_id) {
+    id
+    country_code
+    timezone
+  }
+}

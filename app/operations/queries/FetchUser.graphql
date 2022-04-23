@@ -1,0 +1,19 @@
+query FetchUser {
+  me {
+    id
+    name
+    email
+    invite_code
+    phone_number
+    timezone {
+      id
+      country_code
+      timezone
+    }
+    country {
+      id
+      code
+      name
+    }
+  }
+}

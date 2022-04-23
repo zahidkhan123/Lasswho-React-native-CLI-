@@ -1,0 +1,5 @@
+mutation RemoveSpeakerFromFavourites($speaker_id: Int!) {
+  removeSpeakerFromFavourites(speaker_id: $speaker_id) {
+    ...FullSpeaker
+  }
+}

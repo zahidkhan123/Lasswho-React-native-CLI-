@@ -1,0 +1,3 @@
+mutation MagicLogin($hash: String!) {
+  magicLogin(hash: $hash)
+}

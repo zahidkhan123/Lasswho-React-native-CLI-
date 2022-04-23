@@ -1,0 +1,15 @@
+query GetAllSpeakers($industry: Int, $attributes: [SpeakerAttributeValue], $name: String) {
+  speakers(industry: $industry, attributes: $attributes, name: $name) {
+    id
+    name    
+    profile_image
+    listing_image
+    country_name
+    country_code
+    currency_symbol
+    currency
+    favourite
+    price
+    price_min
+  }
+}

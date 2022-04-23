@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "348170246230",
+    "project_id": "lasswho-app",
+    "storage_bucket": "lasswho-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348170246230:android:3bdead82397f296be4c3f7",
+        "android_client_info": {
+          "package_name": "com.lasswho"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348170246230-cei6k706id4othfadsq1ej12lgqrsf1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4mX9Q3ove8XOQz0A1a_KALs7F2sU7vMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348170246230-cei6k706id4othfadsq1ej12lgqrsf1i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "348170246230-vdhnofhgg7q98rl7gh3vsf2bmeoefdp1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.lasswho"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

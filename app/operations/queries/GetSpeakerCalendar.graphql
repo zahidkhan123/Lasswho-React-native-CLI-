@@ -1,0 +1,6 @@
+query GetSpeakerCalendar($speaker: Int, $duration: Int) {
+  calendar(speaker: $speaker, duration: $duration) {
+    date
+    slots
+  }
+}

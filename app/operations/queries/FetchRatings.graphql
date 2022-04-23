@@ -1,0 +1,11 @@
+query FetchRatings {
+  userRating {
+    rating
+    list {
+      rating
+      text
+      speaker_name
+      listing_image
+    }
+  }
+}

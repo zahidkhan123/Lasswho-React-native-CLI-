@@ -1,0 +1,5 @@
+mutation AddSpeakerToFavourite($speaker_id: Int!) {
+  addSpeakerToFavourites(speaker_id: $speaker_id) {
+    ...FullSpeaker
+  }
+}

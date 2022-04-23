@@ -1,0 +1,24 @@
+fragment FullSpeaker on Speaker {
+  id
+  name
+  profile_image
+  listing_image
+  country_name
+  favourite
+  bio
+  price
+  price_min
+  currency
+  currency_symbol
+  country_code
+  skills
+  achievements
+  attributes {
+    name
+    values
+  }
+  engagement_rules {
+    name
+    selected
+  }
+}

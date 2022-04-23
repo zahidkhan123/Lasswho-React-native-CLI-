@@ -1,0 +1,20 @@
+overwrite: true
+schema:
+  - ${API_URL}:
+      headers: {
+        x-client-id: ${CLIENT_ID}
+      }
+documents: "app/operations/**/*.graphql"
+generates:
+  app/operations/generated/graphql.tsx:
+    schema: "app/operations/client-schema.graphql"
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typed-document-node"
+      - "typescript-apollo-client-helpers"
+      - "fragment-matcher"
+  # Introspection
+  # ./graphql.schema.json:
+  #   plugins:
+  #     - "introspection"

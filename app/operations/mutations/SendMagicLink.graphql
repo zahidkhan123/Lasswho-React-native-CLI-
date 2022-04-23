@@ -1,0 +1,6 @@
+mutation SendMagicLink($email: String!) {
+  sendMagicLink(email: $email) {
+    success
+    email
+  }
+}

@@ -1,0 +1,18 @@
+mutation BookMeeting(
+  $speaker: Int!
+  $date: Date!
+  $duration: Int!
+  $slot: String!
+) {
+  bookMeeting(
+    speaker: $speaker
+    date: $date
+    duration: $duration
+    slot: $slot
+  ) {
+    id
+    uuid
+    date
+    duration
+  }
+}

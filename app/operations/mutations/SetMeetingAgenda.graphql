@@ -1,0 +1,10 @@
+mutation SetMeetingAgenda($meeting: Int!, $agenda: String!) {
+  setMeetingAgenda(meeting: $meeting, agenda: $agenda) {
+    id
+    speaker {
+      name
+    }
+    meeting_date
+    meeting_time
+  }
+}

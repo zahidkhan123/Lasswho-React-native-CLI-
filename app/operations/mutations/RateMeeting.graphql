@@ -1,0 +1,14 @@
+mutation RateMeeting (
+  $meeting: Int!
+  $rate: Int!
+  $text: String!
+) {
+  rateMeeting(
+    meeting: $meeting
+    rate: $rate
+    text: $text
+  ) {
+    id
+    uuid
+  }
+}

@@ -1,0 +1,23 @@
+query GetIndustryInfo($id: ID!) {
+  industryInfo(id: $id) {
+    id
+    name
+    attributes {
+      id
+      name
+      type
+      values {
+        id
+        name
+      }
+    }
+    path {
+      id
+      name
+    }
+    child {
+      id
+      name
+    }
+  }
+}

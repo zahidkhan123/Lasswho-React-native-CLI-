@@ -1,0 +1,5 @@
+query GetSpeaker($id: ID!) {
+  speaker(id: $id) {
+    ...FullSpeaker
+  }
+}

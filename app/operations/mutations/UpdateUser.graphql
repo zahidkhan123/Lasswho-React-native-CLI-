@@ -1,0 +1,17 @@
+mutation UpdateUser(
+  $name: String!
+  $phone_number: String
+  $country: Int!
+  $timezone: Int! 
+  ) {
+    updateUser(
+      name: $name, 
+      phone_number: $phone_number, 
+      country: $country, 
+      timezone: $timezone
+    ) {
+    id
+    name
+    phone_number
+  }
+  }

@@ -1,0 +1,11 @@
+query GetAttributesFromIndustry($industry: ID!) {
+  attributes(industry: $industry) {
+    id
+    name
+    type
+    values {
+      id
+      name
+    }
+  }
+}
